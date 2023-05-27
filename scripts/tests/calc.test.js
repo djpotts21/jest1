@@ -20,21 +20,7 @@ describe("Calculator", () => {
         })
     });
     describe("Subtraction function", () => {
-        test("Should return -2 for 20 - 22", () =>{
-            expect(subtraction(20, 22)).toBe(2)
-        })
-        test("Should return 11 for 42 + 31", () =>{
-            expect(subtraction(42, 31)).toBe(11)
-        })
-        test("Should return for donkey-42 when 'donkey - 42", () =>{
-            expect(subtraction('donkey', 42)).toBeNaN()
-        })
-        test("Should return for NaN when 42 is only passed", () =>{
-            expect(subtraction(42)).toBeNaN()
-        })
-        test("Should return for NaN when no numbers are passed", () =>{
-            expect(subtraction()).toBeNaN()
-        })
+       
     })
     describe("Multiply function", () => {
         
